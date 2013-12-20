@@ -1,6 +1,6 @@
 {
   "name": "meteor-gist",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Provides a dead simple way to get and inject public gist into dynamic meteor template.",
   "license": "MIT",
   "main": "gist.js",
