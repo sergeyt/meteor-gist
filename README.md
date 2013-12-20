@@ -1,4 +1,4 @@
 meteor-gist
 ===========
 
-Handlebars helper to inject gist into dynamic meteor template
+Provides a dead simple way to get and inject public gist into dynamic meteor template.

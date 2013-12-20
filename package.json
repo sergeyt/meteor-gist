@@ -1,0 +1,34 @@
+{
+  "name": "meteor-gist",
+  "version": "0.0.0",
+  "description": "Provides a dead simple way to get and inject public gist into dynamic meteor template.",
+  "license": "MIT",
+  "main": "gist.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sergeyt/meteor-gist.git"
+  },
+  "keywords": [
+    "meteor",
+    "gist",
+    "github"
+  ],
+  "author": "Sergey Todyshev <stodyshev@gmail.com>",
+  "contributors": [
+    "Sergey Todyshev <stodyshev@gmail.com>"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-cli": "~0.1.11",
+    "grunt-contrib-jshint": "~0.7.1",
+    "grunt-coffeelint": "0.0.7",
+    "grunt-npm": "~0.0.2",
+    "grunt-bump": "~0.0.7",
+    "grunt-auto-release": "0.0.4"
+  },
+  "scripts": {
+    "lint": "grunt lint",
+    "test": "grunt test"
+  }
+}

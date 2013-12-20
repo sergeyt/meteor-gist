@@ -1,0 +1,8 @@
+{
+  "name": "gist",
+  "description": "Provides a dead simple way to get and inject public gist into dynamic meteor template.",
+  "homepage": "https://github.com/sergeyt/meteor-gist",
+  "author": "Sergey Todyshev",
+  "version": "0.0.1",
+  "git": "https://github.com/sergeyt/meteor-gist.git"
+}
