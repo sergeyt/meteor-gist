@@ -19,5 +19,9 @@ Put `{{{gist <user> <id>}}}` in your meteor template where:
 </template>
 ```
 
+## TODO
+
+* Port for nodejs and browser
+
 [buildstatus]: https://drone.io/github.com/sergeyt/meteor-gist/status.png
 [buildstatusurl]: https://drone.io/github.com/sergeyt/meteor-gist/latest
