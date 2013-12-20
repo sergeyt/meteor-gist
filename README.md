@@ -9,6 +9,8 @@ Put `{{{gist <user> <id>}}}` in your meteor template where:
 * `<user>` - github user name of gist owner
 * `<id>` - gist id
 
+### Example
+
 ```html
 <template name="example">
   <div class="gist">
