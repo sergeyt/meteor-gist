@@ -40,7 +40,8 @@ if (Meteor.isClient){
 					console.log(err);
 					return;
 				}
-				if (Session.get(key) != res.content){
+				// TODO provide a way to expirate cached gist
+				if (!Session.get(key)){
 					Session.set(key, evalGist(res.content));
 				}
 			});
