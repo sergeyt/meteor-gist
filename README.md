@@ -1,4 +1,9 @@
-# meteor-gist [![Build Status][buildstatus]][buildstatusurl]
+[![Build Status](https://drone.io/github.com/sergeyt/meteor-gist/status.png)](https://drone.io/github.com/sergeyt/meteor-gist/latest)
+
+[![Deps Status](https://david-dm.org/sergeyt/meteor-gist.png)](https://david-dm.org/sergeyt/meteor-gist)
+[![DevDeps Status](https://david-dm.org/sergeyt/meteor-gist/dev-status.png)](https://david-dm.org/sergeyt/meteor-gist#info=devDependencies)
+
+# meteor-gist
 
 Provides a dead simple way to get and inject public gist into dynamic meteor template.
 
@@ -22,6 +27,3 @@ Put `{{{gist <user> <id>}}}` in your meteor template where:
 ## TODO
 
 * Port for nodejs and browser
-
-[buildstatus]: https://drone.io/github.com/sergeyt/meteor-gist/status.png
-[buildstatusurl]: https://drone.io/github.com/sergeyt/meteor-gist/latest
