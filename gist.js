@@ -50,7 +50,7 @@ if (Meteor.isClient){
 		}
 	};
 
-	Handlebars.registerHelper('gist', function(user, id){
+	UI.registerHelper('gist', function(user, id){
 		return Meteor.Gist.get(user, id);
 	});
 }
