@@ -19,11 +19,11 @@ Put `{{{gist <user> <id>}}}` in your meteor template where:
 ```html
 <template name="example">
   <div class="gist">
-  	{{{gist sergeyt 7329871}}}
+  	{{{gist "sergeyt" "7329871"}}}
   </div>
 </template>
 ```
 
 ## TODO
 
-* Port for nodejs and browser
+* Port for browser
