@@ -1,10 +1,14 @@
 Package.describe({
-  summary: "Provides a dead simple way to get and inject public gist into dynamic meteor template."
+  name: "sergeyt:gist",
+  summary: "Provides a dead simple way to get and inject public gist into dynamic meteor template.",
+  git: "https://github.com/sergeyt/meteor-gist.git",
+  version: "0.1.0"
 });
 
-Package.on_use(function(api, where) {
-  var both = ['client', 'server'];
-  api.use('http', both);
-  api.use('handlebars', ['client']);
-  api.add_files('gist.js', both);
+Package.onUse(function(api) {
+  var anywhere = ['client', 'server'];
+  api.versionsFrom('METEOR@0.9.0');
+  api.use('http', anywhere);
+  api.use('ui', 'client');
+  api.addFiles('index.js', anywhere);
 });
